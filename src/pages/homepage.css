@@ -1,0 +1,76 @@
+.home {
+    background-color: antiquewhite;
+    
+    
+}
+
+table {
+    margin: 5rem auto;
+    border-radius: 1rem;
+    border: 1rem hidden #443c68;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    max-width: 100rem;
+ }
+
+ td {
+    font-size: 1.2rem;
+    line-height: 3.6;
+
+}
+
+ html{
+    font-size: 70%;
+}
+
+thead{
+    font-size: 1.5rem;
+    background-color: #3910ee;
+    color: #fff;
+}
+
+th{
+    width: 5rem;
+}
+
+th, td {
+    border: 1px solid #6a677c;
+    min-width: 10rem;
+    padding: 0.5rem;
+    line-height: 1.3;
+}
+
+td {
+    font-size: 1.4rem;
+    width: 3rem;
+}
+
+.pageNumbers li{
+    padding: 10px;
+    border: 1px solid rgb(14, 13, 13);
+    cursor: pointer;
+    
+}
+
+.pageNumbers li.active{
+    background-color: #7059d6;
+    color: rgb(234, 227, 227);
+}
+
+ button {
+    /* background-color: transparent; */
+    border: none;
+    color: #080708;
+    
+    cursor: pointer;
+}
+
+ button:hover{
+    background-color: #4630a7;
+    color: white;
+}
+
+button:focus{
+    outline: none;
+}
