@@ -17,7 +17,7 @@ const Header = () => {
                                 <a href='#'>India</a>
                                 <ul className='submenu2'>
                                     <li to="/searhPage"><Link to="/searchpage">Import</Link></li>
-                                    <li><a href='#'>Export</a></li>
+                                    <li><Link to='/exportSreachPage'>Export</Link></li>
                                     <li><a href='#'>HSN Code</a></li>
                                 </ul>
                             </li>
