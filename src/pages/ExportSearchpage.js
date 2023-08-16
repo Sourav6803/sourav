@@ -13,7 +13,7 @@ const ExportSearchpage = () => {
     const [query, setQuery] = useState("")
     const [ivalue, setValue] = useState("")
     const [currentPage, setCurrentPage] = useState(1)
-    const [itemsPerPage, setItemsPerpage] = useState(5)
+    const [itemsPerPage, setItemsPerpage] = useState(50)
     const [pagenumberlimit, setpageNumberLimit] = useState(5)
     const [maxPageNumberLimit, setMaxPageNumberLimit] = useState(5)
     const [minPageNumberLimit, setMinPageNumberLimit] = useState(0)
