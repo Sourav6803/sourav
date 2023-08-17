@@ -6,7 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai"
 import Login from './Login'
 import { useNavigate } from 'react-router-dom'
 
-const logo = "./export.jpg"
+import logo from "./export.jpg"
 
 const HomePage = () => {
     const [getImportData, setImportdata] = useState([])
@@ -90,13 +90,13 @@ const HomePage = () => {
                 </div>
 
                 <div className='mt-5 d-flex align-items-center justify-ontent-center'>
-                    <input className=" fs-1 " type="radio" value="HS_CODE" name="data" onChange={e => setValue(e.target.value)} />HS_CODE
-                    <input className="fs-1 ms-3 " type="radio" value="EXPORTER_NAME" name="data" onChange={e => setValue(e.target.value)} />EXPORTER_NAME
+                    <input className=" fs-1 " type="radio" value="HSN_CODE" name="data" onChange={e => setValue(e.target.value)} />HSN_CODE
+                    <input className="fs-1 ms-3 " type="radio" value="HSN_CODE_DESCRIPTION" name="data" onChange={e => setValue(e.target.value)} />HSN_CODE_DESCRIPTION
                 </div>
 
                 <div className='mb-3 mt-5'>
                     <form onSubmit={handleSubmit} className="d-flex align-items-center justify-content-center mb-3">
-                        <input className="" style={{ display: "inline-block", height: "30px", width: "40vw", border: "none" }} type='text' placeholder='HS_CODE/EXPORTER_NAME' value={query} onChange={e => setQuery(e.target.value)} />
+                        <input className="" style={{ display: "inline-block", height: "30px", width: "40vw", border: "none" }} type='text' placeholder='HSN_CODE/HSN_CODE_DESCRIPTION' value={query} onChange={e => setQuery(e.target.value)} />
                         <button type="submit" value='search' className='ms-2 d-inline-block' style={{ height: "30px" }} ><AiOutlineSearch className='fs-3' /></button>
                     </form>
                 </div>
